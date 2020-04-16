@@ -1,0 +1,60 @@
+<template>
+
+    
+
+</template>
+
+<script>
+import axios from 'axios' 
+
+  export default {
+  
+
+  };
+</script>
+
+<style lang="scss" scoped>
+  .md-card {
+    width: 320px;
+    margin: 4px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .md-card-example {
+    .md-subhead {
+      .md-icon {
+        $size: 16px;
+
+        width: $size;
+        min-width: $size;
+        height: $size;
+        font-size: $size !important;
+      }
+
+      span {
+        vertical-align: middle;
+      }
+    }
+
+    .card-reservation {
+      margin-top: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .md-icon {
+        margin: 8px;
+      }
+    }
+
+    .md-button-group {
+      display: flex;
+
+      .md-button {
+        min-width: 60px;
+        border-radius: 2px;
+      }
+    }
+  }
+</style>
