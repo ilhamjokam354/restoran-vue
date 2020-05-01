@@ -154,7 +154,7 @@ export default {
                 jumlah : 1
             })
 
-            if(j == 0){
+            if(j == 1){
                 this.$store.dispatch('hapusCart', e)
             }
         },
